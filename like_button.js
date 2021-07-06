@@ -1,7 +1,7 @@
 const LikeButton = React.createElement(
     'button',
     { 
-        onClick: () => this.setState({ liked: true }) ,
+        onClick: () => alert('hello') ,
         style: {
             "backgroundColor": "#1890ff",
             "height": "32px",
@@ -10,6 +10,7 @@ const LikeButton = React.createElement(
             "borderRadius": "2px",
             "lineHeight": "24px",
             "border": "1px solid transparent",
+            "cursor": "pointer"
         },
         "className": "demo",
     },
